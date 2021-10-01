@@ -5,7 +5,7 @@
   "main": "randomWordServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./randomWordServer.js"
+    "start": "node ./randomWordServer.js"
   },
   "author": "ananth bhat",
   "license": "ISC",
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
